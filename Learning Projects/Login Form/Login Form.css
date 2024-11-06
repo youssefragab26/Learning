@@ -1,0 +1,41 @@
+body{
+    font-family: cursive;
+    text-align: center;
+    align-items: center;
+    background-color: #18191b;
+}
+#Account{
+    color: #3aada0;
+}
+.All-Elements{
+    background-color: #000031;
+    margin-top: 120px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 16px;
+}
+.input{
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+    background-color: #f0f4f3;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.label{
+    color: #3aada0;
+}
+#loginButton{
+    width: 257px;
+    height: 30px;
+    margin: 5px;
+    background-color: #3aada0;
+    border: none;
+    border-radius: 10px;
+}
+
+#register{}
