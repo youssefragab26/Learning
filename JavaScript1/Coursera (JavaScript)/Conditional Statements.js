@@ -111,3 +111,6 @@ switch(light) {
         console.log('The light is not green, orange, or red');
         break;
  }
+
+let yourName = 'Joe'
+yourName === 'Joe'? console.log('Hello Joe') : console.log('Hello Friend');

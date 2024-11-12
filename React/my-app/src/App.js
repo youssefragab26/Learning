@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import HelloReactButton from "./MyButton";
+import ColorLoop  from "./ColorLoop";
+import NavBar from "./NavBar";
+import Result from "./Embedded Expressions"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+          <ColorLoop/>
+          <Result />
+          <h1>HELLO I'M YOUSSEF</h1>
+          <HelloReactButton name='Joe'/>
+          <NavBar first='100%' last='50%'/>
+          <article>
+              <h1>My First Component</h1>
+              <ol>
+                  <li>Components: UI Building Blocks</li>
+                  <li>Defining a Component</li>
+                  <li>Using a Component</li>
+              </ol>
+          </article>
+      </div>
+
   );
 }
 
