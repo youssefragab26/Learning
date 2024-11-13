@@ -1,12 +1,12 @@
 // Writing Statements
 
 // if
-if (condition == true) {
+if (condition === true) {
     // Execute this code
 }
 
 // if else
-if (condition == true) {
+if (condition === true) {
     // Execute this code
 } else {
     // Execute this code
