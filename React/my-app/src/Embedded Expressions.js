@@ -2,14 +2,14 @@
 // Example
 const location = 'Alexandria'
 
-function formatName(firstName, surName){
+function formatName(firstName, surName, work){
     return firstName + " " + surName;
 }
 function Result(){
     return (
         <div>
         <h1>{location}</h1>
-        <p>{formatName("Youssef", "Mohamed")}</p>
+        <p>{formatName("Youssef", "Mohamed", "Frontend")}</p>
         </div>
     )
 }
