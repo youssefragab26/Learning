@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5487f86-3afb-4888-881d-68825d258f9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tailwind CSS/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST.js" beforeDir="false" afterPath="$PROJECT_DIR$/TEST.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "youssefragab26"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;youssefragab26&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/youssefragab26/Learning.git",
-    "accountId": "8edfbb58-01dc-4716-8090-b52de7127f54"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/youssefragab26/Learning.git&quot;,
+    &quot;accountId&quot;: &quot;8edfbb58-01dc-4716-8090-b52de7127f54&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2oo4Yhojn0xSMDpgqf851cp11wM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,6 +50,7 @@
     "JavaScript Debug.Html Basics.html.executor": "Run",
     "JavaScript Debug.test.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/Coding/Learning/HTML and CSS",
     "node.js.detected.package.eslint": "true",
@@ -63,7 +66,7 @@
       <recent name="D:\Coding\Learning\HTML and CSS\Tailwind CSS" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Html Basics.html">
+  <component name="RunManager" selected="JavaScript Debug.test.html">
     <configuration name="Html Basics.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HTML and CSS/Html Basics.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -72,15 +75,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Html Basics.html" />
         <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="JavaScript Debug.Html Basics.html" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
       </set>
     </attachedChunks>
   </component>
@@ -93,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731522643966</updated>
       <workItem from="1731522645035" duration="1305000" />
+      <workItem from="1732470140470" duration="1421000" />
     </task>
     <servers />
   </component>
