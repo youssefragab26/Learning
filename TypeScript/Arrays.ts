@@ -50,4 +50,72 @@ console.log(squares); // Output: [1, 4, 9]
 let sum = numbers.reduce((acc, curr) => acc + curr, 0);
 console.log(sum); // Output: 15
 
+// Union Types for Arrays
+// You can use union types to allow an array to contain more than one type.
+let mixedOne: (number | string)[] = [1, "hello", 2];
+console.log(mixedOne); // Output: [1, "hello", 2]
 
+// Looping Over Arrays
+// 1-Using for...of
+let animals: string[] = ["Dog", "Cat", "Rabbit"];
+for (let animal of animals) {
+    console.log(animal); // Output: "Dog", "Cat", "Rabbit"
+}
+// 2-Using forEach
+animals.forEach(animal => console.log(animal));
+// Output: "Dog", "Cat", "Rabbit"
+
+// Array with Custom Types
+// 1-Using Interfaces
+interface Person {
+    name: string;
+    age: number;
+}
+
+let people: Person[] = [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 }
+];
+
+people.forEach(person => console.log(`${person.name} is ${person.age} years old.`));
+// Output:
+// Alice is 25 years old.
+// Bob is 30 years old.
+
+// 2-Using Classes
+class Car {
+    constructor(public brand: string, public model: string) {}
+}
+
+let cars: Car[] = [
+    new Car("Toyota", "Camry"),
+    new Car("Honda", "Accord")
+];
+
+cars.forEach(car => console.log(`${car.brand} ${car.model}`));
+// Output:
+// Toyota Camry
+// Honda Accord
+
+// Utility Types with Arrays
+// ReadonlyArray<Type>
+let arr: ReadonlyArray<number> = [1, 2, 3];
+// arr[0] = 10; // Error: Index signature in type 'readonly number[]' only permits reading.
+console.log(arr);
+
+// Partial<Type>
+interface Todo {
+    title: string;
+    completed: boolean;
+}
+
+let todos: Partial<Todo>[] = [
+    { title: "Learn TypeScript" },
+    { completed: false }
+];
+console.log(todos);
+
+// Type Assertions
+let unknownArray: any = [1, 2, 3];
+let numberArray = unknownArray as number[];
+console.log(numberArray); // Output: [1, 2, 3]
