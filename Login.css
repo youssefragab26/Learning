@@ -78,6 +78,7 @@ p{
 a{
     color: rgba(41, 51, 41, 0.63);
     cursor: pointer;
+    text-decoration: none;
 }
 
 
