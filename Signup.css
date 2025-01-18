@@ -8,9 +8,10 @@ body{
     column-gap: 1px;
     grid-template-columns: auto auto  ;
     background-color: rgb(227, 227, 227);
+    box-shadow: 0 0 20px rgb(98, 98, 98);
     border-radius: 15px;
     width: 800px;
-    height: 70vh;
+    height: 400px;
     margin: 80px auto auto auto ;
 }
 .divOne{
